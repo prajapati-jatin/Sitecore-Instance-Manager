@@ -153,6 +153,7 @@
     <Compile Include="MainWindowComponents\DeleteInstanceButton.cs" />
     <Compile Include="MainWindowComponents\Download8Button.cs" />
     <Compile Include="MainWindowComponents\AbstractDownloadAndRunButton.cs" />
+    <Compile Include="MainWindowComponents\EnableSolrButton.cs" />
     <Compile Include="MainWindowComponents\ExportInstanceButton.cs" />
     <Compile Include="MainWindowComponents\GenerateNuGetPackagesButton.cs" />
     <Compile Include="MainWindowComponents\ImportInstanceButton.cs" />

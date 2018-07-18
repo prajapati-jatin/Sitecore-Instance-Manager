@@ -379,6 +379,18 @@
     [NotNull]
     public string TwoVersion { get; set; }
 
+    public Boolean IsSitecore8
+    {
+      get
+      {
+        if (!String.IsNullOrEmpty(TwoVersion))
+        {
+          return TwoVersion.Split('.')[0] == "8";
+        }
+        return false;
+      }
+    }
+
     [NotNull]
     public string VersionAndRevision
     {

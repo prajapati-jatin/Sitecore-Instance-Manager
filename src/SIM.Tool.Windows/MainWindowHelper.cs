@@ -218,6 +218,11 @@
         owner, "Publish", $"Publish \'en\' language from \'master\' to \'web\' with mode {mode}");
     }
 
+    public static void EnableSitecore(Instance instance, Window owner)
+    {
+
+    }
+
     public static void RefreshCaches()
     {
       using (new ProfileSection("Refresh caching"))
