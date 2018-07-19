@@ -705,6 +705,12 @@ namespace SIM.Tool.Windows
               Image = "/Images/$lg/atom2.png, SIM.Tool.Windows",
               Buttons = new[]
               {
+                new ButtonDefinition(),
+                new ButtonDefinition{
+                  Label = "Install Solr",
+                  Image = "/Images/$sm/publish.png, SIM.Tool.Windows",
+                  Handler = new SIM.Tool.Windows.MainWindowComponents.EnableSolrButton()
+                },
                 new ButtonDefinition
                 {
                   Label = "Publish (Incremental)",
