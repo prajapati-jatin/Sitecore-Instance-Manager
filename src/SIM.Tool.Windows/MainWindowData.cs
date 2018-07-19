@@ -707,8 +707,8 @@ namespace SIM.Tool.Windows
               {
                 new ButtonDefinition(),
                 new ButtonDefinition{
-                  Label = "Enable Solr",
-                  Image = "/Images/$sm/redo.png, SIM.Tool.Windows",
+                  Label = "Install Solr",
+                  Image = "/Images/$sm/publish.png, SIM.Tool.Windows",
                   Handler = new SIM.Tool.Windows.MainWindowComponents.EnableSolrButton()
                 },
                 new ButtonDefinition

@@ -15,9 +15,8 @@ namespace SIM.Tool.Windows.MainWindowComponents
   {
     public bool IsEnabled([NotNull] Window mainWindow, [CanBeNull] Instance instance)
     {
-      if(instance != null && (instance.Product?.IsSitecore8).Value)
+      if(instance != null)
       {
-        //var product = instance.Product;
         return true;
       }
       return false;
@@ -25,7 +24,7 @@ namespace SIM.Tool.Windows.MainWindowComponents
 
     public void OnClick([NotNull] Window mainWindow, [CanBeNull] Instance instance)
     {
-      WindowHelper.ShowMessage("Enable Solr");
+      WindowHelper.ShowMessage("Enable solr");
     }
   }
 }
