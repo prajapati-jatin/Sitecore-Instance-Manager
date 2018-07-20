@@ -228,6 +228,10 @@
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserControls\Download8\ProductDownload8InCheckbox.cs" />
+    <Compile Include="UserControls\EnableSolr\EnableSolrSettings.xaml.cs">
+      <DependentUpon>EnableSolrSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\EnableSolr\EnableSolrSettingsWizardArgs.cs" />
     <Compile Include="UserControls\Export\ExportDatabases.xaml.cs">
       <DependentUpon>ExportDatabases.xaml</DependentUpon>
     </Compile>
@@ -552,6 +556,10 @@
     <Page Include="Dialogs\RestoreDatabaseDialog.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\EnableSolr\EnableSolrSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControls\Install\InstanceRole9.xaml">
       <Generator>MSBuild:Compile</Generator>
